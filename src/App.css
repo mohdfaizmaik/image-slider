@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .slider {
   position: relative;
   height: 100vh;
@@ -7,8 +10,8 @@
 }
 
 .image{
-  width: 600px;
-  height: 500px;
+  width: 800px;
+  height: 450px;
   border-radius: 10px; 
 }
 
@@ -30,4 +33,41 @@
   color:black;
   z-index: 10;
   cursor: pointer;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide-active {
+  opacity: 1;
+  transition-duration: 1s ease;
+  transform: scale(1.1);
+}
+@media screen and (max-width:700px){
+  .image{
+    width: 500px;
+    height: 400px;
+  }
+  .left {
+    left: 10px;
+  }
+
+  .right{
+    right: 10px;
+  } 
+}
+@media screen and (max-width:500px){
+  .image{
+    width: 400px;
+    height: 300px;
+  }
+  .left {
+    left: 5px;
+  }
+
+  .right{
+    right: 5px;
+  } 
 }
