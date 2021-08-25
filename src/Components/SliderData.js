@@ -2,18 +2,18 @@ import React from 'react';
 
 export const SliderData = [
     {
-        image:'https://www.shutterstock.com/image-photo/sunrise-view-dal-lake-srinagar-jammu-654201766'
+        image:'https://image.shutterstock.com/image-photo/srinagar-jammu-kashmirindia-may-6-600w-1411322615.jpg'
     },
     {
-        image:'https://www.shutterstock.com/image-photo/srinagar-jammu-kashmir-india-november-16-774669184'
+        image:'https://image.shutterstock.com/image-photo/natural-landscape-new-zealand-alps-600w-208954870.jpg'
     },
     {
-        image:'https://www.shutterstock.com/image-photo/starry-night-india-kashmir-dal-lake-1195450543'
+        image:'https://image.shutterstock.com/image-photo/lake-italian-dolomites-600w-1525755428.jpg'
     },
     {
-        Image:'https://www.shutterstock.com/image-photo/beauty-dal-lake-beautiful-shikaras-during-1189787239'
+        image:'https://image.shutterstock.com/image-photo/small-house-snow-600w-1007298745.jpg'
     },
     {
-        image:'https://www.shutterstock.com/image-photo/srinagar-jammu-kashmirindia-may-6-2019-1411322615'
+        image:'https://image.shutterstock.com/image-photo/mountain-cross-gardena-pass-dolomites-600w-1927149983.jpg'
     }
 ];
