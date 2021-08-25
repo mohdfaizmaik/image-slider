@@ -1,9 +1,10 @@
 import './App.css';
 import ImageSlider from './Components/ImageSlider';
+import { SliderData } from './Components/SliderData';
 
 function App() {
   return (
-    <ImageSlider />
+    <ImageSlider slides ={SliderData}/>
   );
 }
 
