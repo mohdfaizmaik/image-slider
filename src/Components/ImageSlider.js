@@ -5,6 +5,8 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa';
 const ImageSlider = ({slides}) => {
     let [current, setCurrent] = useState(0);
     const length = slides.length;
+
+    
     return(
         <section className= "slider">
             <FaArrowAltCircleLeft className="left" />
