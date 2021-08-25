@@ -6,13 +6,13 @@ const ImageSlider = ({slides}) => {
     let [current, setCurrent] = useState(0);
     const length = slides.length;
 
-    
+
     return(
         <section className= "slider">
             <FaArrowAltCircleLeft className="left" />
             <FaArrowAltCircleRight className = "right" />
             {SliderData.map( (slide, index) => {
-                return <img src = {slide.image} alt ="lake pics"/>;
+                return <img src = {slide.image} alt ="lake pics" className="image"/>;
             })}
 
         </section>
