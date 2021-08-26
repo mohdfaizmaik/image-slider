@@ -14,5 +14,8 @@ export const SliderData = [
     },
     {
         image:'https://image.shutterstock.com/image-photo/mountain-cross-gardena-pass-dolomites-600w-1927149983.jpg'
+    },
+    {
+        image:'https://images.unsplash.com/photo-1564329494258-3f72215ba175?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80'
     }
 ];
