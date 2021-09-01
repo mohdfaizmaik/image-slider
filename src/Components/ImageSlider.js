@@ -17,10 +17,10 @@ const ImageSlider = ({slides}) => {
 
     React.useEffect(() => {
         resetTimeout();
-        timeoutRef.current = setTimeout(
-        () =>
-            setCurrent((prevIndex) =>
-            prevIndex === length    ? 1 : prevIndex + 1
+        timeoutRef.current = 
+        setTimeout( () =>
+            setCurrent((current) =>
+            current === length    ? 1 : current+ 1
             ),
         delay
         );
@@ -56,7 +56,7 @@ const ImageSlider = ({slides}) => {
                 ); 
             })}
              <div className="container-dots">
-                {Array.from({length}).map((slide, index) => (
+                {SliderData.map((slide, index) => (
                     <div 
                     onClick={() => moveDot(index + 1)}
                     className={current === index + 1 ? "dot active" : "dot"}
